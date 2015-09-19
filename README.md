@@ -6,6 +6,7 @@
 ### 集成
 
 <!--xml代码-->
+		// xml
         <com.owl.downloadview.view.RectangelDownloadView
             android:id="@+id/download_test_01"
             android:layout_width="match_parent"
@@ -15,6 +16,7 @@
 ### 控制
 
 <pre class="brush: java; gutter: true;">
+     	dr01 = (IDownloadService) findViewById(R.id.download_test_01);
         AttachedInfoMessage info01 = new AttachedInfoMessage();
         info01.setFileName("360weishi.apk");
         info01.setIconurl(null);
